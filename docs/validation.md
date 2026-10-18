@@ -81,8 +81,18 @@ O procedimento não altera a instalação pessoal ativa, não usa credenciais re
 node docs/tools/validate-package.mjs
 ```
 
+Depois da publicação, o mesmo teste também foi executado com a origem GitHub:
+
+```powershell
+node docs/tools/validate-package.mjs --github
+```
+
+**Ambos passaram em 18/10/2026:** marketplace `codex-pulse`, plugin 0.4.1 habilitado, entrypoint somente `thread` e recurso MCP com sprite incorporado. A configuração temporária foi removida; a instalação pessoal ativa não foi substituída.
+
 ## Imagens do README
 
 As imagens e o GIF são gerados por `docs/tools/render-assets.mjs` a partir do sprite original, das formas SVG e dos estados do código. As métricas são fixtures documentais. Os layouts são reproduções explicativas do componente, não capturas de execução.
 
 O gerador é independente do servidor MCP e não faz consultas de conta ou leitura das sessões do usuário.
+
+O README publicado foi inspecionado no navegador: as seis imagens, o GIF e os badges carregaram. As seções foram encontradas no DOM renderizado e não houve overflow horizontal na página estreita observada. Os arquivos locais também foram verificados quanto à existência dos destinos relativos do README.
