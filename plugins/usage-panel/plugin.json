@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "usage-panel",
+  "version": "0.4.1",
+  "description": "Painel pessoal para consultar o uso restante da conta autenticada no Codex.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Uso restante",
+        "shortDescription": "Uso da conta em um painel",
+        "longDescription": "Mostra a janela de 5 horas e tenta ler a telemetria local da conversa e seus subagentes quando o host fornece seu ID. Interface embutida, somente leitura; controle de agentes indisponível nesta versão.",
+        "developerName": "Alison Cruz",
+        "category": "Productivity",
+        "capabilities": [
+          "Read account usage"
+        ]
+      }
+    }
+  }
+}
+

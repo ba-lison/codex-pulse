@@ -1,0 +1,14 @@
+{
+  "name": "codex-pulse-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:assets": "node docs/tools/render-assets.mjs",
+    "test": "node --test plugins/usage-panel/server/*.test.mjs plugins/usage-panel/ui/panel-ui.test.mjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "gifenc": "^1.0.3",
+    "sharp": "^0.35.5"
+  }
+}
