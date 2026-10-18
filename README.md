@@ -431,12 +431,10 @@ Os comandos da distribuição deste repositório são verificados em um ambiente
 - Sem controle de agentes, compactação manual, handoff, histórico de custos ou agregação de outras sessões.
 - Validação concentrada em Windows. As demais plataformas permanecem sem confirmação.
 
-## Créditos e projetos relacionados
+## Autor
 
 Criado por [Alison Cruz](https://github.com/ba-lison).
 
-- [Claude MOD — usage-hud](https://github.com/ba-lison/Claude-MOD-usage-hud): referência de apresentação, consumo e acompanhamento de atividade no Claude Code.
-- [Claude MOD — tripulação](https://github.com/ba-lison/Claude-MOD-tripulacao): referência de acompanhamento individual de subagentes e separação de métricas.
-- [Documentação oficial de plugins](https://developers.openai.com/plugins/build/plugins) e [comandos de desenvolvimento](https://learn.chatgpt.com/docs/developer-commands): empacotamento e comandos de marketplace.
+## Licença
 
-O mascote original do Codex é um recurso visual da OpenAI. Este projeto é uma integração independente. Consulte [NOTICE.md](NOTICE.md) para a origem dos recursos; o repositório ainda não declara uma licença pública para o conjunto.
+[MIT](LICENSE) © 2026 Alison Cruz.
